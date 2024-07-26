@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="contact-section.css">
+</head>
+<body>
+    <div id="contact-section" class="section contact">
+        <div class="contact-container">
+            <div class="contact-headline">
+                <h3>Want to get in touch?<br>Drop me a line!</h3>
+                <p class="paragraph-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="contact-form">
+                <form id="email-form" method="get">
+
+                    <div class="form-flex">
+
+                        <div class="name-container">
+                            <label for="name">Name</label>
+                            <input class="text-field w-input" type="text" id="name" name="name" placeholder="Enter your name">
+                        </div>
+                        <div class="email-container">
+                            <label for="email">Email Address</label>
+                            <input class="text-field w-input" type="email" id="email" name="email" placeholder="Enter your Email" required>
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="message-container">
+                        <label for="message">Message</label>
+                        <textarea class="text-field w-input" id="message" name="message" placeholder="Enter your message"></textarea>
+                    </div>
+                    
+                    <input type="submit" value="Submit" class="button w-button">
+                </form>
+                <div class="success-message" id="email-form-success">
+                    <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="error-message" id="email-form-error">
+                    <div>Oops! Something went wrong while submitting the form.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="copyright">
+            <p>&copy; 2023 Gowshick Raja. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
