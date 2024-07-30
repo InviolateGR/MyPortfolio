@@ -105,6 +105,31 @@ label {
     font-weight: 500;
     line-height: 20px;
 }
+
+
+.contact-container .square-container-wrap{
+    position: inherit;
+    display: flex;
+}
+.contact-container .color-block{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 0;
+    position: relative;
+}
+.contact-container .square-1-red{
+    background-color: rgb(226, 73, 73);
+}
+.contact-container .square-2-blue{
+    background-color: rgb(55, 106, 226);
+}
+.contact-container .square-3-green{
+    background-color: rgb(85, 172, 85);
+}
+
+
+
+
 .section{
     margin: 30px;
 }

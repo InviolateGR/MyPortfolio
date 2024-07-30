@@ -18,3 +18,23 @@ fetch('contact-section.html')
     contactSectionContainer.innerHTML = html;
   });
 
+  const section2 = document.getElementById('section-2');
+
+  const observer = new IntersectionObserver((entries) => {
+    if (entries[0].isIntersecting) {
+      document.querySelectorAll('#section-2 .skill-summary-wrap, #section-2 .skillset-items').forEach((element) => {
+        element.classList.add('animate');
+      });
+    }
+  }, { threshold: 1 });
+  
+  observer.observe(section2);
+
+
+
+// See More Button
+const projectContentContainer = document.getElementsByClassName('projectContentContainer');
+
+function seeMoreBtn() { 
+  projectContentContainer.style.height = 'auto';
+};
