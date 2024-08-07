@@ -1,4 +1,4 @@
-.background-image{
+.intro-section .background-image{
     position: absolute;
     z-index: -1;
     top: 6%;
@@ -6,7 +6,7 @@
     height: fit-content;
     width: fit-content;
 }
-.background-image img{
+.intro-section .background-image img{
     width: 810px;
     opacity: .6;
     height: auto;
